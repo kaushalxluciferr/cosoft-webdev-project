@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    text-shadow: 2px  #000000;
+}
+section{
+    min-height: 100vh;
+    background-image: url(R.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+nav{
+    height: 80px;
+
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color: rgb(202, 139, 21);
+}
+nav ul{
+    float: right;
+    line-height: 70px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+    font-size: 35px;
+    margin-right: 10px;
+    
+}
+nav ul li a{
+    color: rgb(9, 123, 85);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    float: right;
+
+}
+nav ul li a:hover{
+    background-color: orange;
+    transition:1s ease-in;
+    line-height: 30px;
+}
+
+.article{
+    width: 100%;
+    text-align: center;
+    transform: translateY(25hv);
+    margin-top: 150px;
+}
+.article h1{
+font-size: 36px;
+color: wheat;
+letter-spacing: 1.5px;
+font-weight: 800;
+margin-bottom: 25px;
+
+}
+.article p{
+    margin-top: 30px;
+   color: white;
+    font-size: 20px;
+}
+button{
+    background-color: #f15048;
+    padding: 12px 25px;
+margin-top: 40px;
+border-radius: 14px;
+text-shadow:  #000000 ;
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: blanchedalmond;
+    color: black;
+}

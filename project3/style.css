@@ -1,0 +1,38 @@
+
+body{
+    background-image: url(OIP\ \(1\).jpeg);
+    
+}
+.container
+{
+    background-color:wheat;
+    height: 400px;
+    width: 300px;
+   margin-top: 150px;
+margin-left: 600px;
+border: 2px solid aquamarine;
+border-radius: 18px;
+}
+button{
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 45px;
+    border-radius: 50%;
+    color: yellow;
+    background-color: black;
+    font-size: 30px;
+    
+}
+#display{
+    height: 60px;
+    width: 98%;
+    background-color: rgb(227, 240, 241);
+    border-radius: 18px;
+    font-size: 20px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
